@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    background-color: #cccccc;
+}
+
+.titulo{
+    margin-top: 70px;
+}
+
+.form{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+.link{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.link:hover{
+    background-color: grey;
+}
+
+.input-email{
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.input-email:focus{
+    border-color: black;
+}
+
+.input-email:hover{
+    background-color: lightgrey;
+}
+
+.botao{
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.botao:hover{
+    background-color: lightgrey;
+}
+
+.azul{
+    color: darkblue;
+}
+
+.email{
+    display: block;
+    margin-bottom: 5px
+}
